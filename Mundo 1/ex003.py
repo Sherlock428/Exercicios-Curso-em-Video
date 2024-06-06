@@ -1,0 +1,11 @@
+#Desecando as Strings
+Character = input("Digite algo! ")
+print(f"===={Character}====")
+print("É um número ?", Character.isnumeric())
+print("É Alpha ?", Character.isalpha())
+print("É Alphanumerico ?", Character.isalnum())
+print("Está Tudo Maiúsculo ?", Character.isupper())
+print("Está Tudo em Minúsculo ?", Character.islower())
+print("É Imprimivel ?", Character.isprintable())
+print("Todos Caracteres são Númericos ?", Character.isdigit())
+print("Todos os Caracteres é um Espaço em Branco ?", Character.isspace())
